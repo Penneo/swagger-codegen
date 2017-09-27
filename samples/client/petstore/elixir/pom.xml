@@ -49,6 +49,8 @@
                         <configuration>
                             <executable>mix</executable>
                             <arguments>
+                                <argument>do</argument>
+                                <argument>deps.get,</argument>
                                 <argument>compile</argument>
                             </arguments>
                         </configuration>
